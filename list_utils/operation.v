@@ -13,7 +13,7 @@ fn sum(list []int) int {
 
 //count
 //renvoi qui execute du code sur chaque elements d'une liste
-pub fn apply<T>(list []&T) []T{
+pub fn apply<T>(list []T) []T{
 	
 	for e in list {
 		println(int(e))
